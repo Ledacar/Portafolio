@@ -8,12 +8,12 @@
   }
   
   ::-webkit-scrollbar-thumb {
-    background: rgb(255, 4, 17); /* color barra */
+    background: rgb(4, 42, 255); /* color barra */
     border-radius: 50px; /* borde barra */
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(197, 5, 14); /* color barra hover */
+    background: rgb(4, 27, 160); /* color barra hover */
   }
 
   .cotenedorhead{
