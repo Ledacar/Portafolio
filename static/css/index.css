@@ -27,7 +27,7 @@ html{
 
 .navbar.sticky{
     padding: 10px 0;
-    background: rgb(255, 4, 17);
+    background: rgb(4, 42, 255);
 }
 
 .navbar .max-width{
@@ -43,7 +43,7 @@ html{
 }
 
 .navbar .logo a span:hover{
-    color: rgb(255, 4, 17);
+    color: rgb(4, 42, 255);
 }
 
 .navbar.sticky .logo a span:hover{
@@ -63,11 +63,11 @@ html{
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .navbar .menu li a:hover{
-    color: rgb(255, 4, 17);
-    transition: all 1s ease;
+    color: rgb(4, 42, 255);
     font-size: 20px;
 }
 
@@ -89,7 +89,7 @@ html{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: rgb(255, 4, 17);
+    background: rgb(4, 42, 255);
     left: 30px;
     bottom: 10px;
     text-align: center;
@@ -109,11 +109,10 @@ html{
     opacity: 1;
     pointer-events: auto;    
 }
-
 /* home section */
 .home{
     display: flex;
-    background: url("/static/png/xccc.png") no-repeat center;
+    background: url("/static/png/—Pngtree—network\ information\ electronic\ technology\ background_1096792.jpg") no-repeat;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -139,7 +138,7 @@ html{
 }
 
 .home .home-conten .text-3 span{    
-    color: rgb(255, 4, 17);
+    color: rgb(4, 42, 255);
     font-weight: 500;
 }
 
@@ -173,7 +172,7 @@ section .tittle::after{
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: rgb(255, 4, 17);
+    color: rgb(4, 42, 255);
     padding: 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -209,7 +208,7 @@ section .about-conten,
 }
 
 .about .about-conten .right .text span{
-    color: rgb(255, 4, 17);
+    color: rgb(4, 42, 255);
 }
 
 .about .about-conten .right p{
@@ -218,19 +217,19 @@ section .about-conten,
 
 .about .about-conten .right a{
     display: inline-block;
-    background: rgb(255, 4, 17);
+    background: rgb(4, 42, 255);
     color: #fff;
     font-size: 25px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 10px;
-    border: 2px solid rgb(255, 4, 17);
+    border: 2px solid rgb(4, 42, 255);
     transition: all 0.5s ease;
 }
 
 .about .about-conten .right a:hover{
-    color: rgb(255, 4, 17);
+    color: rgb(4, 42, 255);
     background: none;
 
 }
@@ -264,7 +263,7 @@ section .about-conten,
 }
 
 .expe .expe-conten .card:hover{
-    background: rgb(255, 4, 17);
+    background: rgb(4, 42, 255);
 }
 
 .expe .expe-conten .card .box{
@@ -277,7 +276,7 @@ section .about-conten,
 
 .expe .expe-conten .card i{
     font-size: 50px;
-    color: rgb(255, 4, 17);
+    color: rgb(4, 42, 255);
     text-align: center;
     transition: color 0.5s ease;
 }
@@ -341,11 +340,11 @@ section .about-conten,
     height: 100%;
     left: 0;
     top: 0;
-    background: rgb(255, 4, 17);    
+    background: rgb(4, 42, 255);    
 }
 
 .skill-content .right .c::before{
-    width: 70%;
+    width: 80%;
 }
 
 .skill-content .right .cc::before{
@@ -357,23 +356,23 @@ section .about-conten,
 }
 
 .skill-content .right .python::before{
-    width: 30%;
+    width: 90%;
 }
 
 .skill-content .right .django::before{
-    width: 30%;
+    width: 90%;
 }
 
 .skill-content .right .html::before{
-    width: 80%;
+    width: 90%;
 }
 
 .skill-content .right .css::before{
-    width: 75%;
+    width: 95%;
 }
 
 .skill-content .right .js::before{
-    width: 60%;
+    width: 70%;
 }
 
 .skill-content .right .sql::before{
@@ -395,7 +394,7 @@ section .about-conten,
 }
 
 .work .carsel .card:hover{
-    background: rgb(255, 4, 17);
+    background: rgb(4, 42, 255);
 }
 
 .work .carsel .card .box{
@@ -421,7 +420,7 @@ section .about-conten,
     height: 150px;
     width: 250px;
     object-fit: cover;    
-    border: 2px solid rgb(255, 4, 17);
+    border: 2px solid rgb(4, 42, 255);
     transition: all 0.5s ease;
 }
 
@@ -431,13 +430,14 @@ section .about-conten,
 
 /* footer style */
 footer{
+    text-align: center;
     background: #000;
     padding: 20px 23px;
     color: #fff;
 }
 
 footer span a{
-    color: rgb(255, 4, 17);
+    color: rgb(4, 42, 255);
     text-decoration: none;
     text-align: center;
 }
