@@ -112,7 +112,7 @@ html{
 /* home section */
 .home{
     display: flex;
-    background: url("./static/png/—Pngtree—network\ information\ electronic\ technology\ background_1096792.jpg") no-repeat;
+    background-image: url('/static/png/fond.jpg');
     height: 100vh;
     color: #fff;
     min-height: 500px;
