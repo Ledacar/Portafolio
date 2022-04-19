@@ -192,9 +192,9 @@ section .about-conten,
 }
 .about .about-conten .left img{
     height: 400px;
-    width: 400px;      
+    width: 300px;      
     object-fit: cover;  
-    border-radius: 15px;
+    border-radius: 5%;
 }
 
 .about .about-conten .right{
