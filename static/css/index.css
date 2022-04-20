@@ -112,7 +112,7 @@ html{
 /* home section */
 .home{
     display: flex;
-    background-image: url('/static/png/fond.jpg');
+    background-image: url('./static/png/fond.jpg');
     height: 100vh;
     color: #fff;
     min-height: 500px;
