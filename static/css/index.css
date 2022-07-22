@@ -112,7 +112,7 @@ html{
 /* home section */
 .home{
     display: flex;
-    background-image: url('./static/png/fond.jpg');
+    background-image: url('https://images8.alphacoders.com/788/788732.png');
     height: 100vh;
     color: #fff;
     min-height: 500px;
