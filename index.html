@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./static/png/943026.png">
+    <link rel="icon" href="./static/png/favicon.png">
     <link rel="stylesheet" href="./static/css/index.css">
     <link rel="stylesheet" href="./static/css/layout.css">
     <title>Portafolio Carlos</title>
@@ -42,9 +42,9 @@
     <section class="home" id="homes">
         <div class="max-width">
             <div class="home-conten">
-                <div class="text-1">Hola, mundo</div>
-                <div class="text-2">Soy Carlos</div>
-                <div class="text-3">Yo soy <span class="typing">Ingeniero en sistemas</span></div>
+                <div class="text-1">¡Hola bienvenidos!</div>
+                <div class="text-2">Soy David</div>
+                <div class="text-3">Y soy <span class="typing">Ingeniero en sistemas</span></div>
             </div>
         </div>
     </section>
@@ -61,8 +61,7 @@
                 <div class="column right">
                     <div class="text">Soy ingeniero en <span>sistemas</span></div>
                     <p>
-                        Soy una persona responsable, amables con ganas de siempre salir adelanta y ganas de
-                        siempre aprender un poco mas sobre la informatica.
+                        Soy una persona responsable, amables con ganas de siempre salir adelanta y ganas de siempre aprender un poco más sobre la informatica, he tenido experiencia en el campo de la programación siendo parte del staff de <b>CS50 Nicaragua</b> ayudando a los alumnos del curso con sus pset(tareas) y proyectos finales para la feria de esta misma.
                     </p>
                     <a href="CV_Carlos_David_Tapia_Leiva.pdf" download="CV Carlos Tapia" >Descarga mi CV</a>
                 </div>
@@ -72,10 +71,10 @@
 
     <!-- habilidades secction start  -->
     <section class="expe" id="expe">
-        <div class="max-width">
-            <h1 class="tittle">Mi experiencia</h1>
+        <div class="max-width"> 
+           <h1 class="tittle">Mi experiencia</h1>
             <div class="expe-conten">
-                <div class="card">
+                <div class="card" onclick="developer()">
                     <div class="box">
                         <i class="far fa-file-code"></i>
                         <div class="text">Desarrollador web</div>
@@ -84,9 +83,11 @@
                             trabajando tanto en el frontend como en el backend. dichas estas son poco complejas.
                         </p>
                     </div>
+                    <br>
+                   <marquee> <b class="moreinfo">Click para más información</b> </marquee>
                 </div>
 
-                <div class="card">
+                <div class="card" onclick="aplicacionesEscritorio()">
                     <div class="box">
                         <i class="fab fa-windows"></i>
                         <div class="text">Programación en aplicaciones de escritorio</div>
@@ -96,9 +97,11 @@
                             a la empresa sus gestiones.
                         </p>
                     </div>
+                    <br>
+                    <marquee> <b class="moreinfo">Click para más información</b> </marquee>
                 </div>
 
-                <div class="card">
+                <div class="card" onclick="diseñoGrafico()">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Diseñador grafico</div>
@@ -107,9 +110,12 @@
                             para terceros: <span>Streamers y empresas familiares o de personas cercanas.</span>
                         </p>
                     </div>
+                    <br>
+                    <marquee> <b class="moreinfo">Click para más información</b> </marquee>
                 </div>
             </div>
         </div>
+        <!-- <marquee >En esta seccion solo se muestra un poco de mi experiencia, si desear ver mis proyecto baja mas en la pagina  </marquee> -->
     </section>
 
     <!-- slills secction start -->
@@ -247,7 +253,13 @@
             </div>
         </div>
     </section>
-
+    <!-- <section>
+        <canvas      
+        width="500"
+        height="500"
+        id="lienzo">
+        </canvas>
+    </section> -->
     <!--  footer  -->
     <footer>
         <span>Creado por <a href="">Carlos Tapia</a> derechos reservados. | <span class="far fa-copyright"></span> Creado en 2022</span>

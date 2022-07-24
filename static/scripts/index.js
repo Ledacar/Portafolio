@@ -53,3 +53,14 @@ $(document).ready(function(){
         }
     });
 }); 
+
+function developer() {
+    window.location.replace('developer.html')
+}
+
+function aplicacionesEscritorio() {
+    window.location.replace('application.html')
+}
+function diseñoGrafico() {
+    window.location.replace('diseñografico.html')
+}

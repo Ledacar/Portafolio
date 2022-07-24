@@ -27,7 +27,7 @@ html{
 
 .navbar.sticky{
     padding: 10px 0;
-    background: rgb(4, 42, 255);
+    background: rgb(0, 0, 66);
 }
 
 .navbar .max-width{
@@ -89,7 +89,7 @@ html{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: rgb(4, 42, 255);
+    background: rgb(0, 0, 66);
     left: 30px;
     bottom: 10px;
     text-align: center;
@@ -112,7 +112,8 @@ html{
 /* home section */
 .home{
     display: flex;
-    background-image: url('https://images8.alphacoders.com/788/788732.png');
+    background-image: url('https://www.brandemia.org//sites/default/files/inline/images/5.gif');
+    background-size: cover;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -217,19 +218,19 @@ section .about-conten,
 
 .about .about-conten .right a{
     display: inline-block;
-    background: rgb(4, 42, 255);
+    background: rgb(0, 0, 66);
     color: #fff;
     font-size: 25px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 10px;
-    border: 2px solid rgb(4, 42, 255);
+    border: 2px solid rgb(0, 0, 66);
     transition: all 0.5s ease;
 }
 
 .about .about-conten .right a:hover{
-    color: rgb(4, 42, 255);
+    color: rgb(0, 0, 66);
     background: none;
 
 }
@@ -262,8 +263,16 @@ section .about-conten,
     transition: all 0.5s ease;
 }
 
+.expe .expe-conten .card b{
+    visibility: hidden;
+    color: rgb(197, 194, 194);
+}
+.expe .expe-conten .card:hover b{
+    visibility: visible;
+}
+
 .expe .expe-conten .card:hover{
-    background: rgb(4, 42, 255);
+    background: rgb(0, 0, 66);
 }
 
 .expe .expe-conten .card .box{
@@ -340,7 +349,7 @@ section .about-conten,
     height: 100%;
     left: 0;
     top: 0;
-    background: rgb(4, 42, 255);    
+    background: rgb(0, 0, 66);    
 }
 
 .skill-content .right .c::before{
@@ -394,7 +403,7 @@ section .about-conten,
 }
 
 .work .carsel .card:hover{
-    background: rgb(4, 42, 255);
+    background: rgb(0, 0, 66);
 }
 
 .work .carsel .card .box{
@@ -420,7 +429,7 @@ section .about-conten,
     height: 150px;
     width: 250px;
     object-fit: cover;    
-    border: 2px solid rgb(4, 42, 255);
+    border: 2px solid rgb(0, 0, 66);
     transition: all 0.5s ease;
 }
 
@@ -476,16 +485,18 @@ footer span a{
         position: fixed;
         height: auto;
         width: 100%;
-        left: 0;
-        top: -100%;
+        right: -100%;
+        top: 0;
         background: #222;
         text-align: center;
+        border-radius: 0 0 0 150px;
         padding-top: 15px;
         transition: all 0.5s ease;
     }
 
     .navbar .menu.active{
-        top: 0;
+        right: 0;
+
     }
 
     .navbar .menu li{
@@ -567,3 +578,31 @@ footer span a{
         font-size: 27px;
     }
 }
+
+@-webkit-keyframes entradaanim {
+    from {
+      left: 50%;
+    }
+    to {
+        left: 0%;
+    }
+  }
+  
+  @keyframes entradaanim {
+    from {
+        left: 50%;
+    }
+    to {
+        left: 0%;
+    }
+  }
+
+  .logo, .text-1, .text-2, .text-3 {
+    position: relative;
+    -webkit-animation-name: entradaanim;
+            animation-name: entradaanim;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
